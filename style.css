@@ -1,0 +1,15 @@
+body{
+    background-image: url(messi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(38, 58, 100);
+    margin-left: 500px;
+}
+
+p{
+    color: black;
+    margin-left: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

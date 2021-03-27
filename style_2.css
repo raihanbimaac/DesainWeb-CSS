@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(rumput.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: 500px;
+}
+
+p.dotted {border-style: dotted; border-color: rgb(238, 167, 60);}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: ridge;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+
+h4 {
+    color: rgba(178, 245, 189, 0.932);
+}
+
+h5 {
+    color: rgb(0, 225, 255);
+}
+
+.kotak1 { /*tanpa Padding*/
+    border: 2px solid rgb(248, 11, 11);
+    background-color: rgb(241, 145, 225);
+}
+
+.kotak2 { /*dengan Padding*/
+    border: 1px solid rgb(248, 11, 11);
+    padding: 40px;
+    background-color: rgb(241, 145, 225);
+}
+
+.kotak3 {/*tanpa Margin*/
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(1, 100, 136);
+}
+
+.kotak4 {/*dengan Margin*/
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(4, 122, 165);
+}
+
+.gambar{
+    width: 500px;
+    float: right;
+    margin-right: 40px;
+}
